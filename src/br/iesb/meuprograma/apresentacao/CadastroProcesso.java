@@ -32,7 +32,7 @@ public class CadastroProcesso extends javax.swing.JPanel {
         txtNumeracaoProcesso = new javax.swing.JTextField();
         txtDataProcesso = new javax.swing.JTextField();
         btnAdicionarArquivo = new javax.swing.JButton();
-        selArquivoProcesso = new javax.swing.JTextField();
+        txtselArquivoProcesso = new javax.swing.JTextField();
         jScrollPane1 = new javax.swing.JScrollPane();
         tblProcesso = new javax.swing.JTable();
         jSeparator1 = new javax.swing.JSeparator();
@@ -52,10 +52,10 @@ public class CadastroProcesso extends javax.swing.JPanel {
 
         btnAdicionarArquivo.setText("Adicionar");
 
-        selArquivoProcesso.setText("Selecione o arquivo");
-        selArquivoProcesso.addActionListener(new java.awt.event.ActionListener() {
+        txtselArquivoProcesso.setText("Selecione o arquivo");
+        txtselArquivoProcesso.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                selArquivoProcessoActionPerformed(evt);
+                txtselArquivoProcessoActionPerformed(evt);
             }
         });
 
@@ -88,7 +88,7 @@ public class CadastroProcesso extends javax.swing.JPanel {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 180, Short.MAX_VALUE)
                         .addComponent(txtDataProcesso, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(selArquivoProcesso)
+                        .addComponent(txtselArquivoProcesso)
                         .addGap(18, 18, 18)
                         .addComponent(btnAdicionarArquivo)))
                 .addContainerGap())
@@ -110,7 +110,7 @@ public class CadastroProcesso extends javax.swing.JPanel {
                         .addComponent(btnAdicionarArquivo)
                         .addGap(9, 9, 9))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(selArquivoProcesso, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(txtselArquivoProcesso, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)))
                 .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -123,9 +123,9 @@ public class CadastroProcesso extends javax.swing.JPanel {
         // TODO add your handling code here:
     }//GEN-LAST:event_cbAsuntoActionPerformed
 
-    private void selArquivoProcessoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_selArquivoProcessoActionPerformed
+    private void txtselArquivoProcessoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtselArquivoProcessoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_selArquivoProcessoActionPerformed
+    }//GEN-LAST:event_txtselArquivoProcessoActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
@@ -133,10 +133,10 @@ public class CadastroProcesso extends javax.swing.JPanel {
     private javax.swing.JComboBox<String> cbAsunto;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JSeparator jSeparator1;
-    private javax.swing.JTextField selArquivoProcesso;
     private javax.swing.JTable tblProcesso;
     private javax.swing.JTextField txtDataProcesso;
     private javax.swing.JTextField txtDescricaoProcesso;
     private javax.swing.JTextField txtNumeracaoProcesso;
+    private javax.swing.JTextField txtselArquivoProcesso;
     // End of variables declaration//GEN-END:variables
 }

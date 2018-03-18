@@ -29,7 +29,7 @@
                       <Component id="txtDataProcesso" min="-2" pref="100" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
-                      <Component id="selArquivoProcesso" max="32767" attributes="0"/>
+                      <Component id="txtselArquivoProcesso" max="32767" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="btnAdicionarArquivo" min="-2" max="-2" attributes="0"/>
                   </Group>
@@ -57,7 +57,7 @@
                       <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
-                      <Component id="selArquivoProcesso" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtselArquivoProcesso" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -107,12 +107,12 @@
         <Property name="text" type="java.lang.String" value="Adicionar"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="selArquivoProcesso">
+    <Component class="javax.swing.JTextField" name="txtselArquivoProcesso">
       <Properties>
         <Property name="text" type="java.lang.String" value="Selecione o arquivo"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="selArquivoProcessoActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtselArquivoProcessoActionPerformed"/>
       </Events>
     </Component>
     <Container class="javax.swing.JScrollPane" name="jScrollPane1">
